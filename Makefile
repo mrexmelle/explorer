@@ -7,7 +7,7 @@ LDXX = g++
 LD = gcc
 AR = ar
 
-OUTPUT = testexplorer
+OUTPUT = posix-explorer
 MAIN_C_SOURCES=$(shell find src -name "*.c")
 MAIN_C_OBJECTS=$(MAIN_C_SOURCES:.c=.o)
 MAIN_CPP_SOURCES=$(shell find src -name "*.cpp")
